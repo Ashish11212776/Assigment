@@ -1,0 +1,49 @@
+/* General container styling */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+}
+
+.container h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+/* Styling for the board (row of squares) */
+.board {
+  display: flex;
+  justify-content: center;
+}
+
+/* Styling for individual squares */
+.square {
+  width: 80px;
+  height: 80px;
+  margin: 5px;
+  border: 2px solid #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Add hover effect for squares */
+.square:hover {
+  background-color: #e0e0e0;
+  transform: scale(1.05);
+}
+
+/* Highlight square when clicked */
+.square.active {
+  background-color: #ffd700;
+}
