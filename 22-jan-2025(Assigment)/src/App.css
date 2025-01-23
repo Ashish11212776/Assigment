@@ -1,0 +1,23 @@
+.parent{
+    display:flex table-row;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 500px;
+    color: rgb(170, 136, 95);
+    border: 1px solid red;
+}
+.inputbox{
+    display: flex;
+    column-gap: 5px;
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+.myBotton{
+    border-radius:25%;
+    border-color: rgb(78, 97, 78);
+    ;
+}
