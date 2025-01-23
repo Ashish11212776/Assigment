@@ -49,8 +49,9 @@ for(const [key,value] of Object.entries(numbreOfButtons)){  //3
 };
 //output button
 let sum=0;
-const outputBtn=createElements(mainPage,'button',`Output:${sum}`);  //5
+const outputBtn=createElements(mainPage,'button',`Output:${sum}`);
 outputBtn.addEventListener('click',()=>{
+    sum=0;
     for(const [key,value] of Object.entries(numbreOfButtons)){
         sum+=parseInt(numbreOfButtons[key]);
         outputBtn.textContent=`Output:${sum}`;
