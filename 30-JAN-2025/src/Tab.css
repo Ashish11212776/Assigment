@@ -1,0 +1,9 @@
+.tab{
+    height: 200px;
+    width: 150px;
+    border: 1px solid red;
+    background: #b39b9b;
+}
+.btn{
+    border: none;
+}
