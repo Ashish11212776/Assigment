@@ -1,3 +1,9 @@
+.main{
+  align-items: center;
+  margin-left: 25%;
+  margin-top: 10%;
+}
+
 #slider {
   display: flex;
   overflow: hidden;
