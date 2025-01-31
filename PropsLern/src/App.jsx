@@ -1,8 +1,7 @@
-import Achivement from "./components/Achivment";
+
 import React from "react";
 import Gallery from "./components/Gallery"
 import { getImageUrl } from "./components/Utils";
-import { useContext } from "react";
 import AchievementContext from "./components/AchivementContext.jsx"
 
 
