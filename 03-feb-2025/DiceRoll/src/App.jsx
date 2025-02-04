@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div className="app">
-      <h2>Dice Roller 🎲</h2>
+      <h2>Dice Rolle</h2>
       <input
         type="number"
         min="1"
