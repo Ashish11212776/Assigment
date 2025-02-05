@@ -1,0 +1,47 @@
+.clock-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: white;
+}
+
+.clock {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.seven-segment {
+  display: grid;
+  grid-template-rows: 20px 40px 20px 40px 20px;
+  grid-template-columns: 40px 10px 40px;
+  gap: 3px;
+  justify-content: center;
+}
+
+.segment {
+  background-color: rgb(226, 226, 226);
+  width: 40px;
+  height: 10px;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.segment.on {
+  background-color: red;
+}
+
+.segment.A { grid-column: 1 / span 3; grid-row: 1; }
+.segment.B { grid-column: 3; grid-row: 2; width: 10px; height: 40px; }
+.segment.C { grid-column: 3; grid-row: 4; width: 10px; height: 40px; }
+.segment.D { grid-column: 1 / span 3; grid-row: 5; }
+.segment.E { grid-column: 1; grid-row: 4; width: 10px; height: 40px; }
+.segment.F { grid-column: 1; grid-row: 2; width: 10px; height: 40px; }
+.segment.G { grid-column: 1 / span 3; grid-row: 3; }
+
+.colon {
+  font-size: 50px;
+  color: red;
+  font-weight: bold;
+}
