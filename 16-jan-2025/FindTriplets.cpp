@@ -6,7 +6,7 @@ using namespace std;
 
 vector<vector<int>> ans;
 
-void TargetSum(int arr[], int n, int target, vector<int> tmp)
+void TargetSum(int arr[], int n, int target, vector<int> tmp) 
 {
     // base case
     if (n <= 0)
